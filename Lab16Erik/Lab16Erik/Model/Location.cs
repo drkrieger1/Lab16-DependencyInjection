@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace Lab16Erik.Model
+{
+    public class Location
+    {
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public double Latitude { get; set; }
+        public double Longited { get; set; }
+        public string WeatherType { get; set; }
+        public double AvTemp { get; set; }
+    }
+}
